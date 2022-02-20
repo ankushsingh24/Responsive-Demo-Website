@@ -1,0 +1,61 @@
+:root {
+  --very-dark-gray: #2e323f;
+  --dark-gray: #3b4050;
+  --gray: #e1e3eb;
+  --brown: #a59678;
+  --body-font: "Montserrat", sans-serif;
+  --titles-font: "Oswald", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* section 1 style */
+
+html {
+  font-size: 24px;
+  background-color: var(--dark-gray);
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+/* navbar style */
+
+.logo {
+  width: 10%;
+  min-width: 65px;
+  --mx-width: max(65px, 10%);
+  margin: auto;
+  position: absolute;
+  /* to center the logo */
+  left: calc((100% - var(--mx-width)) / 2);
+}
+
+.hamburger {
+  width: 8%;
+  min-width: 30px;
+  position: relative;
+}
+
+.invisible {
+  display: none;
+}
