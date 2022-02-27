@@ -59,3 +59,101 @@ button {
 .invisible {
   display: none;
 }
+
+/* .visible {
+  display: block;
+} */
+
+.nav {
+  background-color: var(--very-dark-gray);
+  padding: 0.5rem;
+}
+
+header ul {
+  text-align: center;
+  list-style: none;
+  padding: 1em 0 0 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: var(--titles-font);
+}
+
+li {
+  margin: 0.5em;
+}
+
+li:hover,
+li:focus {
+  opacity: 80%;
+}
+
+button {
+  background-color: var(--brown);
+  color: #fff;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: none;
+  font-family: var(--titles-font);
+  text-transform: uppercase;
+  outline: none;
+}
+
+button:hover,
+button:focus {
+  opacity: 80%;
+}
+
+/* header body style */
+
+.header-body {
+  background-color: var(--dark-gray);
+  display: flex;
+  align-items: center;
+  /* the height of the viewport - the height of the navbar */
+  min-height: calc(100vh - 80px);
+}
+
+.brown-text {
+  color: var(--brown);
+}
+
+header h1 {
+  font-family: var(--titles-font);
+  margin: 0.5em 0 0.8em;
+  line-height: 1.25em;
+  color: #fff;
+}
+
+.header-body button {
+  margin: 2em 0;
+}
+
+.header-body p {
+  color: #fff;
+}
+
+/* section 1 style */
+
+section {
+  padding: 3em 0;
+}
+
+.s1 {
+  background-color: var(--gray);
+  text-align: center;
+}
+
+.s1 p {
+  margin: 1em 0 2em;
+}
+
+.s1 h2 {
+  color: var(--brown);
+  font-family: var(--titles-font);
+  font-size: 1.2rem;
+}
