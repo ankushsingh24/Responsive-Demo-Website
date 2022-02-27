@@ -14,7 +14,7 @@
   margin: 0;
 }
 
-/* section 1 style */
+/* mobile-first styling */
 
 html {
   font-size: 24px;
@@ -68,7 +68,7 @@ button {
 
 .nav {
   background-color: var(--very-dark-gray);
-  padding: 0.5rem;
+  padding: 1em;
 }
 
 header ul {
